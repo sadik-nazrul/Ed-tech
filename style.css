@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-sec{
+    background-color: #F4FAFD;
+}
+.vh-90{
+    height: 90vh;
+}
+.fa-solid{
+    color: #FBBF24;
+}
+.fa-brands{
+    padding: 0 15px;
+}
+.img-c{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+.bg-mine{
+    background-color: #289BDE;
+}
+/* .vh-60{
+    height: 600px;
+} */
+.panda-bg-info-1{
+    background-image: url(/images/cover/cover-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.panda-bg-info-2{
+    background-image: url(/images/cover/cover-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.panda-bg-info-3{
+    background-image: url(/images/cover/cover-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
