@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Head START -->
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,18 +16,21 @@
 </head>
 <!-- Head END -->
 <!-- Body START -->
-
 <body>
     <!-- Header START -->
     <header class="conatiner shadow-sm fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <a class="navbar-brand" href="#home">Edu BD</a>
+                <div>
+                    <button class="btn btn-outline-primary me-md-2 d-md-none" type="button">Register</button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav mx-auto">
                         <a class="nav-link active px-4" aria-current="page" href="#home">Home</a>
@@ -40,7 +42,10 @@
                         <a class="nav-link active px-4" href="#company">Companies</a>
                     </div>
                 </div>
-                <button class="btn btn-primary me-md-2" type="button">Button</button>
+
+                <div class="d-none d-md-block">
+                    <button class="btn btn-outline-primary me-md-2" type="button">Register</button>
+                </div>
             </div>
         </nav>
     </header>
@@ -222,20 +227,20 @@
         </div>
     </section>
     <!-- Elearning explore END -->
-    <!-- Newslatter START -->
-    <section class="container my-5">
+    <!-- Newsletter START -->
+    <section class="container my-5" id="newsletter">
         <div class="bg-mine p-5 border rounded">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
-                <div class="text-white d-flex flex-column justify-content-center w-50">
+            <div class="row align-items-center text-center text-md-start text-white">
+                <div class="col-md-6">
                     <h2>Ready to join?</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page
                         when
                         looking at its layout.</p>
                 </div>
-                <div class="d-flex justify-content-end align-items-center">
+                <div class="col-md-6 align-items-center text-md-end">
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-light text-primary" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-light text-primary d-inline-block align-middle"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Register Now
                     </button>
 
@@ -264,7 +269,7 @@
             </div>
         </div>
     </section>
-    <!-- Newslatter END -->
+    <!-- Newsletter END -->
     <!-- Successful Student START -->
     <section class="container" id="success">
         <div class="row">
@@ -488,10 +493,10 @@
     </section>
     <!-- FAQ END -->
     <!-- Trusted Companies START -->
-    <section class="container" id="company">
+    <section class="container pb-5" id="company">
         <div class="col-md-10 col-sm-6 col-lg-12">
             <h2 class="text-center py-3">Trusted by over 800+ companies</h2>
-            <div class="d-flex justify-content-around py-4">
+            <div class="d-flex justify-content-around py-4 flex-md-nowrap flex-wrap gap-4">
                 <img src="images/company/company-1.png" alt="">
                 <img src="images/company/company-2.png" alt="">
                 <img src="images/company/company-3.png" alt="">
